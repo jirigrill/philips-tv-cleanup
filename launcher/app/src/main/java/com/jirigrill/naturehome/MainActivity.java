@@ -19,8 +19,10 @@ import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
+import android.graphics.Outline;
 import android.view.Gravity;
 import android.view.View;
+import android.view.ViewOutlineProvider;
 import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
@@ -377,30 +379,39 @@ public class MainActivity extends Activity {
         item.setClickable(true);
         item.setBackgroundResource(R.drawable.dock_item_bg);
         item.setContentDescription(label);
-        item.setPadding(dp(10), dp(8), dp(10), dp(8));
+        item.setPadding(dp(14), dp(10), dp(14), dp(10));
 
         LinearLayout.LayoutParams itemParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
-        itemParams.setMargins(dp(4), 0, dp(4), 0);
+        itemParams.setMargins(dp(6), 0, dp(6), 0);
         item.setLayoutParams(itemParams);
 
         ImageView iconView = new ImageView(this);
-        int iconSize = dp(42);
+        int iconSize = dp(44);
         iconView.setLayoutParams(new LinearLayout.LayoutParams(iconSize, iconSize));
         iconView.setImageDrawable(icon);
         iconView.setScaleType(ImageView.ScaleType.FIT_CENTER);
         iconView.setContentDescription(null);
+        // Rounded corners matching selector (24dp)
+        int radius = dp(24);
+        iconView.setClipToOutline(true);
+        iconView.setOutlineProvider(new ViewOutlineProvider() {
+            @Override
+            public void getOutline(View view, Outline outline) {
+                outline.setRoundRect(0, 0, view.getWidth(), view.getHeight(), radius);
+            }
+        });
         item.addView(iconView);
 
         item.setOnClickListener(click);
         item.setOnFocusChangeListener((v, hasFocus) -> {
-            float scale = hasFocus ? 1.18f : 1f;
+            float scale = hasFocus ? 1.12f : 1f;
             v.animate()
                     .scaleX(scale)
                     .scaleY(scale)
-                    .setDuration(140)
-                    .setInterpolator(new DecelerateInterpolator())
+                    .setDuration(200)
+                    .setInterpolator(new DecelerateInterpolator(1.5f))
                     .start();
             if (hasFocus) {
                 lastDockFocus = v;

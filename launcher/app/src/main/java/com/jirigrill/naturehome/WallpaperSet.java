@@ -91,7 +91,8 @@ final class WallpaperSet {
             }
         }
 
-        List<String> urls = readUrlManifest(new File(wallpapersDir, "urls.txt"));
+        File manifest = new File(wallpapersDir, "urls.txt");
+        List<String> urls = readUrlManifest(manifest);
         for (String url : urls) {
             items.add(new Item(0, null, url));
         }

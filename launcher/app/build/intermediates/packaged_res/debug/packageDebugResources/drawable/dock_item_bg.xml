@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Focused state: completely transparent, only magnification indicates selection -->
     <item android:state_focused="true">
         <shape android:shape="rectangle">
-            <corners android:radius="22dp" />
-            <solid android:color="#33FFFFFF" />
-            <stroke
-                android:width="2dp"
-                android:color="#E6FFFFFF" />
+            <corners android:radius="24dp" />
+            <solid android:color="#00000000" />
         </shape>
     </item>
+    <!-- Default state: completely transparent -->
     <item>
         <shape android:shape="rectangle">
-            <corners android:radius="22dp" />
+            <corners android:radius="24dp" />
             <solid android:color="#00000000" />
         </shape>
     </item>

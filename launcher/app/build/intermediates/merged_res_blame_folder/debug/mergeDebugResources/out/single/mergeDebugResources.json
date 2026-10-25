@@ -4,6 +4,14 @@
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_rain.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_rain.xml"
+    },
+    {
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_cloud.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_cloud.xml"
+    },
+    {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_dock_item_bg.xml.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/dock_item_bg.xml"
     },
@@ -12,32 +20,48 @@
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_apps.xml"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_snow.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_snow.xml"
-    },
-    {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable-nodpi_wp3.jpg.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable-nodpi/wp3.jpg"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_weather_refresh.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_weather_refresh.xml"
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_snow.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_snow.xml"
+    },
+    {
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_sun.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_sun.xml"
+    },
+    {
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_live_tv.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_live_tv.xml"
     },
     {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_scrim.xml.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/scrim.xml"
     },
     {
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_fog.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_fog.xml"
+    },
+    {
+        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_dock_item_bg.xml.flat",
+        "source": "com.jirigrill.naturehome.app-main-6:/drawable/dock_item_bg.xml"
+    },
+    {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable-nodpi_wp5.jpg.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable-nodpi/wp5.jpg"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_thunder.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_thunder.xml"
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_partly.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_partly.xml"
     },
     {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/layout_drawer_item.xml.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/layout/drawer_item.xml"
+    },
+    {
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_clear_night.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_clear_night.xml"
     },
     {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable-nodpi_wp7.jpg.flat",
@@ -48,28 +72,12 @@
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_settings.xml"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_rain.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_rain.xml"
-    },
-    {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_banner.xml.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/banner.xml"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_partly.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_partly.xml"
-    },
-    {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/layout_activity_main.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable-nodpi_wp2.jpg.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable-nodpi/wp2.jpg"
-    },
-    {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_fog.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_fog.xml"
     },
     {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/layout_activity_main.xml.flat",
@@ -80,14 +88,6 @@
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable-nodpi/wp4.jpg"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_clear_night.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_clear_night.xml"
-    },
-    {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_cloud.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_cloud.xml"
-    },
-    {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable-nodpi_wp6.jpg.flat",
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable-nodpi/wp6.jpg"
     },
@@ -96,8 +96,8 @@
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/dock_bg.xml"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_live_tv.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_live_tv.xml"
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_thunder.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_w_thunder.xml"
     },
     {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_tile_bg.xml.flat",
@@ -116,8 +116,8 @@
         "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable-nodpi/wp8.jpg"
     },
     {
-        "merged": "com.jirigrill.naturehome.app-debug-4:/drawable_ic_w_sun.xml.flat",
-        "source": "com.jirigrill.naturehome.app-main-6:/drawable/ic_w_sun.xml"
+        "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_weather_refresh.xml.flat",
+        "source": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-main-6:/drawable/ic_weather_refresh.xml"
     },
     {
         "merged": "/Users/jirigrill/.gradle/daemon/8.7/com.jirigrill.naturehome.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",

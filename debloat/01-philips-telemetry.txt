@@ -1,0 +1,23 @@
+# Philips / TP Vision telemetry, promo surfaces and preloaded promo apps.
+# All reversible with pm enable (scripts/restore.sh).
+
+# --- Telemetry -------------------------------------------------------------
+org.droidtv.candeebug          # "DAC" analytics uploader (AWS Firehose)
+org.droidtv.gel                # metrics collector in candeebug's process
+org.droidtv.usagelogger        # boot/keypress/panel telemetry
+org.droidtv.tv.frameworklogger # persistent TP Vision framework logger
+
+# --- Promo surfaces (the Sources drawer and live TV are untouched) ---------
+org.droidtv.nettvrecommender   # "Top Picks" promo row
+org.droidtv.recommendation     # headless backend for the row
+org.droidtv.nettv.market       # "Smart TV Collection" storefront
+org.droidtv.demome             # retail demo loop / e-sticker
+org.droidtv.m7opapp            # satellite operator promo (aerial only here)
+org.droidtv.nettv_launcherapp  # legacy Philips apps tray
+
+# --- Preloaded promo / FAST apps ------------------------------------------
+org.droidtv.nettvapp1814       # ARTE
+org.droidtv.nettvapp4546       # MEGOGO
+org.droidtv.nettvapp5326       # Toon Goggles
+org.droidtv.nettvapp5512       # Fishing TV
+com.zeasn.whalelive            # WhaleLive FAST channels

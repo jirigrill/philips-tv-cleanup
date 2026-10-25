@@ -1,0 +1,4 @@
+# Stock launcher.
+# Only safe once Nature Home is installed and resolved as HOME; debloat.sh checks this.
+# Disabled manually during the initial switch; kept here so a fresh run is reproducible.
+com.google.android.tvlauncher

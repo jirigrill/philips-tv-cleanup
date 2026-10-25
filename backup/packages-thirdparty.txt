@@ -1,0 +1,11 @@
+package:com.spotify.tv.android
+package:cz.ceskatelevize.ivysilani.tvapp
+package:tv.twitch.android.app
+package:tv.wuaki.apptv
+package:com.zeasn.whalelive
+package:cz.tmobile.tvgo
+package:org.jellyfin.androidtv
+package:org.droidtv.nettvapp1814
+package:org.droidtv.nettvapp4546
+package:org.droidtv.nettvapp5326
+package:org.droidtv.nettvapp5512

@@ -1,0 +1,7 @@
+com.jirigrill.naturehome.app-pngs-0 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/build/generated/res/pngs/debug
+com.jirigrill.naturehome.app-resValues-1 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/build/generated/res/resValues/debug
+com.jirigrill.naturehome.app-packageDebugResources-2 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.jirigrill.naturehome.app-packageDebugResources-3 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.jirigrill.naturehome.app-debug-4 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.jirigrill.naturehome.app-debug-5 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/debug/res
+com.jirigrill.naturehome.app-main-6 /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/res

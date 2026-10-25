@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jirigrill.naturehome.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,139,97",
+                        "endColumns": "41,47,41",
+                        "endOffsets": "92,182,134"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,97,145",
+                        "endColumns": "41,47,41",
+                        "endOffsets": "92,140,182"
+                    }
+                },
+                {
+                    "source": "/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "187",
+                        "endColumns": "48",
+                        "endOffsets": "231"
+                    }
+                },
+                {
+                    "source": "/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "621"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "236",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "802"
+                    }
+                }
+            ]
+        }
+    ]
+}

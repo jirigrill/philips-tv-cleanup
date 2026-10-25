@@ -1,0 +1,11 @@
+# Google telemetry, first-setup leftovers and unused Google apps.
+# Play Store, Google Play services, Chromecast (mediashell) and Assistant stay enabled.
+
+com.google.android.feedback
+com.google.android.partnersetup
+com.google.android.onetimeinitializer
+com.google.android.sss.authbridge
+com.google.android.syncadapters.calendar
+com.google.android.play.games
+com.google.android.videos
+# com.google.android.youtube.tvmusic  # RE-ENABLED for YouTube Music dock icon

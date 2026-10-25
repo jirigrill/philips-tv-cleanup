@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jirigrill.naturehome"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+11-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:4:5-77
+11-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:4:22-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:6:22-76
+14
+15    <uses-feature
+15-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:8:5-10:36
+16        android:name="android.software.leanback"
+16-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:9:9-49
+17        android:required="false" />
+17-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:10:9-33
+18    <uses-feature
+18-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.touchscreen"
+19-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:12:9-52
+20        android:required="false" />
+20-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:13:9-33
+21
+22    <application
+22-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:15:5-54:19
+23        android:allowBackup="false"
+23-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:16:9-36
+24        android:banner="@drawable/banner"
+24-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:17:9-42
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:18:9-43
+28        android:label="@string/app_name"
+28-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:19:9-41
+29        android:supportsRtl="true"
+29-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:20:9-35
+30        android:theme="@style/AppTheme" >
+30-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:21:9-40
+31        <activity
+31-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:23:9-53:20
+32            android:name="com.jirigrill.naturehome.MainActivity"
+32-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:24:13-41
+33            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout|smallestScreenSize|uiMode|density"
+33-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:25:13-141
+34            android:exported="true"
+34-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:26:13-36
+35            android:launchMode="singleTask"
+35-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:27:13-44
+36            android:screenOrientation="landscape" >
+36-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:28:13-50
+37            <intent-filter>
+37-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:30:13-34:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:31:17-69
+38-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:31:25-66
+39
+40                <category android:name="android.intent.category.HOME" />
+40-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:32:17-73
+40-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:32:27-70
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:17-76
+41-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:27-73
+42            </intent-filter>
+43
+44            <!--
+45                 Rakuten / IVI buttons on the Philips remote. GlobalKey sends this
+46                 action; the stock handler (org.droidtv.nettv.market) is disabled.
+47            -->
+48            <intent-filter>
+48-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:38:13-41:29
+49                <action android:name="org.droidtv.tv.intent.action.LAUNCH_NATIVE_APP" />
+49-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:39:17-89
+49-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:39:25-86
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:17-76
+51-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:27-73
+52            </intent-filter>
+53            <intent-filter>
+53-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:43:13-46:29
+54                <action android:name="org.droidtv.tv.intent.action.LAUNCH_RAKUTEN_TV" />
+54-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:44:17-89
+54-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:44:25-86
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:17-76
+56-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:27-73
+57            </intent-filter>
+58
+59            <!-- The remote's "all apps" key used to open the stock launcher drawer. -->
+60            <intent-filter>
+60-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:49:13-52:29
+61                <action android:name="android.intent.action.ALL_APPS" />
+61-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:50:17-73
+61-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:50:25-70
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:17-76
+63-->/Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:27-73
+64            </intent-filter>
+65        </activity>
+66    </application>
+67
+68</manifest>

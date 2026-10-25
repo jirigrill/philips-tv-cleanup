@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:2:1-56:12
+	package
+		INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:4:5-77
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:4:22-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:6:22-76
+uses-feature#android.software.leanback
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:8:5-10:36
+	android:required
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:10:9-33
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:9:9-49
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:12:9-52
+application
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:15:5-54:19
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:15:5-54:19
+	android:extractNativeLibs
+		INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:16:9-36
+	android:banner
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:17:9-42
+	android:theme
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:21:9-40
+activity#com.jirigrill.naturehome.MainActivity
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:23:9-53:20
+	android:screenOrientation
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:28:13-50
+	android:launchMode
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:27:13-44
+	android:exported
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:26:13-36
+	android:configChanges
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:25:13-141
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.HOME
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:32:17-73
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:32:27-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:33:27-73
+intent-filter#action:name:org.droidtv.tv.intent.action.LAUNCH_NATIVE_APP+category:name:android.intent.category.DEFAULT
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:38:13-41:29
+action#org.droidtv.tv.intent.action.LAUNCH_NATIVE_APP
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:39:17-89
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:39:25-86
+intent-filter#action:name:org.droidtv.tv.intent.action.LAUNCH_RAKUTEN_TV+category:name:android.intent.category.DEFAULT
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:43:13-46:29
+action#org.droidtv.tv.intent.action.LAUNCH_RAKUTEN_TV
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:44:17-89
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:44:25-86
+intent-filter#action:name:android.intent.action.ALL_APPS+category:name:android.intent.category.DEFAULT
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:49:13-52:29
+action#android.intent.action.ALL_APPS
+ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:50:17-73
+	android:name
+		ADDED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml:50:25-70
+uses-sdk
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jirigrill/Developer/philips-tv-cleanup/launcher/app/src/main/AndroidManifest.xml

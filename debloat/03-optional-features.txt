@@ -1,0 +1,7 @@
+# Features deliberately traded away. Test live TV, voice, casting and Bluetooth
+# after applying this batch; scripts/restore.sh brings any of them back.
+
+org.droidtv.amazonalexa          # Alexa bridge; Google Assistant (katniss) is kept
+com.phorus.playfi.softap         # DTS Play-Fi access point; Bluetooth audio is kept
+com.google.android.tvrecommendations  # stock recommendations; also removes the system
+                                      # notification panel (Nature Home replaces it)

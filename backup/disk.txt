@@ -1,0 +1,14 @@
+Filesystem            Size  Used Avail Use% Mounted on
+tmpfs                 1.3G  1.1M  1.3G   1% /dev
+tmpfs                 1.3G     0  1.3G   0% /mnt
+/dev/block/mmcblk0p44  11M  136K   10M   2% /metadata
+/dev/block/dm-6       628M  626M     0 100% /
+/dev/block/dm-7       142M  141M     0 100% /vendor
+/dev/block/dm-8       1.4G  1.4G     0 100% /product
+tmpfs                 1.3G     0  1.3G   0% /apex
+tmpfs                 1.3G  208K  1.3G   1% /linkerconfig
+/dev/block/mmcblk0p5  5.8M  116K  5.5M   3% /perm
+/dev/block/mmcblk0p72 5.0G  2.5G  2.4G  51% /data
+tmpfs                 1.3G   80K  1.3G   1% /data/vendor/tmp
+/dev/block/mmcblk0p20 470M   10M  450M   3% /data/vendor/3rd_rw
+/dev/fuse             5.0G  2.5G  2.4G  51% /storage/emulated

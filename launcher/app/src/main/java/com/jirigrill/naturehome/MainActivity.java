@@ -393,8 +393,8 @@ public class MainActivity extends Activity {
         iconView.setImageDrawable(icon);
         iconView.setScaleType(ImageView.ScaleType.FIT_CENTER);
         iconView.setContentDescription(null);
-        // Rounded corners matching selector (24dp)
-        int radius = dp(24);
+        // Rounded rectangle corners (12dp - subtle rounded rectangle, not pill)
+        int radius = dp(12);
         iconView.setClipToOutline(true);
         iconView.setOutlineProvider(new ViewOutlineProvider() {
             @Override
@@ -406,7 +406,7 @@ public class MainActivity extends Activity {
 
         item.setOnClickListener(click);
         item.setOnFocusChangeListener((v, hasFocus) -> {
-            float scale = hasFocus ? 1.12f : 1f;
+            float scale = hasFocus ? 1.25f : 1f;
             v.animate()
                     .scaleX(scale)
                     .scaleY(scale)
